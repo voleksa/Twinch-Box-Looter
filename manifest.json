@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+ 
+    "name": "Twitch Box Looter",
+    "description": "Don`t miss channel points from the box",
+    "version": "1.0",
+
+    "browser_action": {
+        "default_icon": "icon.png"
+       // "default_popup": "popup.html"
+    },
+
+    "content_scripts": [ {
+        "all_frames": true,
+        "exclude_matches": [ "*://*.twitch.tv/*.html", "*://*.twitch.tv/*.html?*", "*://*.twitch.tv/*.htm", "*://*.twitch.tv/*.htm?*" ],
+        "js": [ "run.js" ],
+        "matches": [ "*://*.twitch.tv/*" ]
+     } ],
+
+    "permissions": [
+        "activeTab",
+        "*://*.twitch.tv/*"
+    ]
+}
