@@ -1,4 +1,4 @@
-# Twinch-Chest-Points-Looter
+# Twinch Chest Points Looter
 Chrome extension that allows automate looting channel points
 
 ## Installation:
