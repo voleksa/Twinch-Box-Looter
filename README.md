@@ -1,5 +1,5 @@
 # Twinch Chest Points Looter
-Chrome extension that allows automate looting channel points
+Chrome extension that automate looting chanel points on Twitch
 
 ## Installation:
 
